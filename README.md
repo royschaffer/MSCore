@@ -1,0 +1,2 @@
+# MSCore
+.Net Core Micrcoservice
