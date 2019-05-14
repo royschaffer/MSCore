@@ -1,0 +1,15 @@
+C:\git\MSRoy\MSCore\MSCore\obj\Debug\netcoreapp2.2\MSCore.csproj.CoreCompileInputs.cache
+C:\git\MSRoy\MSCore\MSCore\obj\Debug\netcoreapp2.2\MSCore.AssemblyInfoInputs.cache
+C:\git\MSRoy\MSCore\MSCore\obj\Debug\netcoreapp2.2\MSCore.AssemblyInfo.cs
+C:\git\MSRoy\MSCore\MSCore\bin\Debug\netcoreapp2.2\MSCore.deps.json
+C:\git\MSRoy\MSCore\MSCore\bin\Debug\netcoreapp2.2\MSCore.runtimeconfig.json
+C:\git\MSRoy\MSCore\MSCore\bin\Debug\netcoreapp2.2\MSCore.runtimeconfig.dev.json
+C:\git\MSRoy\MSCore\MSCore\bin\Debug\netcoreapp2.2\MSCore.dll
+C:\git\MSRoy\MSCore\MSCore\obj\Debug\netcoreapp2.2\MSCore.csprojAssemblyReference.cache
+C:\git\MSRoy\MSCore\MSCore\obj\Debug\netcoreapp2.2\MSCore.RazorAssemblyInfo.cache
+C:\git\MSRoy\MSCore\MSCore\obj\Debug\netcoreapp2.2\MSCore.RazorAssemblyInfo.cs
+C:\git\MSRoy\MSCore\MSCore\obj\Debug\netcoreapp2.2\MSCore.RazorTargetAssemblyInfo.cache
+C:\git\MSRoy\MSCore\MSCore\bin\Debug\netcoreapp2.2\MSCore.pdb
+C:\git\MSRoy\MSCore\MSCore\obj\Debug\netcoreapp2.2\MSCore.dll
+C:\git\MSRoy\MSCore\MSCore\obj\Debug\netcoreapp2.2\MSCore.pdb
+C:\git\MSRoy\MSCore\MSCore\bin\Debug\netcoreapp2.2\appsettings.json
