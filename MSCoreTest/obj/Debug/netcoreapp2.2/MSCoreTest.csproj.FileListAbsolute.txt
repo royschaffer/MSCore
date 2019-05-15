@@ -1,0 +1,14 @@
+C:\git\MSRoy\MSCoreTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\git\MSRoy\MSCoreTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\git\MSRoy\MSCoreTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\git\MSRoy\MSCoreTest\bin\Debug\netcoreapp2.2\MSCoreTest.deps.json
+C:\git\MSRoy\MSCoreTest\bin\Debug\netcoreapp2.2\MSCoreTest.runtimeconfig.json
+C:\git\MSRoy\MSCoreTest\bin\Debug\netcoreapp2.2\MSCoreTest.runtimeconfig.dev.json
+C:\git\MSRoy\MSCoreTest\bin\Debug\netcoreapp2.2\MSCoreTest.dll
+C:\git\MSRoy\MSCoreTest\obj\Debug\netcoreapp2.2\MSCoreTest.csprojAssemblyReference.cache
+C:\git\MSRoy\MSCoreTest\obj\Debug\netcoreapp2.2\MSCoreTest.csproj.CoreCompileInputs.cache
+C:\git\MSRoy\MSCoreTest\obj\Debug\netcoreapp2.2\MSCoreTest.AssemblyInfoInputs.cache
+C:\git\MSRoy\MSCoreTest\obj\Debug\netcoreapp2.2\MSCoreTest.AssemblyInfo.cs
+C:\git\MSRoy\MSCoreTest\bin\Debug\netcoreapp2.2\MSCoreTest.pdb
+C:\git\MSRoy\MSCoreTest\obj\Debug\netcoreapp2.2\MSCoreTest.dll
+C:\git\MSRoy\MSCoreTest\obj\Debug\netcoreapp2.2\MSCoreTest.pdb

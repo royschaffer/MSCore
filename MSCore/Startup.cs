@@ -22,9 +22,14 @@ namespace MSCore
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-			//services.AddDbContext<ProductContext>(o => o.UseSqlServer(Configuration.GetConnectionString("ProductDB")));
+			services.AddDbContext<ProductContext>(o => o.UseSqlServer(Configuration.GetConnectionString("ProductDB")));
 			services.AddTransient<IProductRepository, ProductRepository>();
-			services.AddDbContext<ProductContext>(o => o.UseSqlServer("Data Source=localhost;Initial Catalog=ProductsDB;Integrated Security=True;"));
+
+			// Register the Swagger generator, defining 1 or more Swagger documents
+			services.AddSwaggerGen(c =>
+			{
+				c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "MSCore API", Version = "v1" });
+			});
 
 		}
 
@@ -35,6 +40,19 @@ namespace MSCore
 			{
 				app.UseDeveloperExceptionPage();
 			}
+
+			// Enable middleware to serve generated Swagger as a JSON endpoint.
+			app.UseSwagger();
+
+			// Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), 
+			// specifying the Swagger JSON endpoint.
+			app.UseSwaggerUI(c =>
+			{
+				c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+
+				//Set the swagger to the root http://localhost:<port>/
+				c.RoutePrefix = string.Empty;
+			});
 
 			app.UseMvc();
 		}
