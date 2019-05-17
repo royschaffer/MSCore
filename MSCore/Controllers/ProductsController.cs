@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using MSCore.Models;
 using MSCore.Repository;
 using System.Transactions;
@@ -11,15 +12,18 @@ namespace MSCore.Controllers
 	{
 
 		private readonly IProductRepository _productRepository;
+		private readonly ILogger _logger;
 
-		public ProductsController(IProductRepository productRepository)
+		public ProductsController(IProductRepository productRepository, ILoggerFactory loggerFactory)
 		{
 			_productRepository = productRepository;
+			_logger = loggerFactory.CreateLogger<ProductsController>();
 		}
 
 		[HttpGet]
 		public IActionResult Get()
 		{
+
 			var products = _productRepository.GetProducts();
 			return new OkObjectResult(products);
 		}
@@ -27,6 +31,7 @@ namespace MSCore.Controllers
 		[HttpGet("{id}", Name = "Get")]
 		public IActionResult Get(int id)
 		{
+			_logger.LogInformation("Get" + id.ToString());
 			var product = _productRepository.GetProductByID(id);
 			return new OkObjectResult(product);
 		}

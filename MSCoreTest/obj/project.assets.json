@@ -5844,11 +5844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\temp\\MSCore\\MSCoreTest\\MSCoreTest.csproj",
+      "projectUniqueName": "C:\\git\\MSCore\\MSCoreTest\\MSCoreTest.csproj",
       "projectName": "MSCoreTest",
-      "projectPath": "C:\\git\\temp\\MSCore\\MSCoreTest\\MSCoreTest.csproj",
+      "projectPath": "C:\\git\\MSCore\\MSCoreTest\\MSCoreTest.csproj",
       "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\temp\\MSCore\\MSCoreTest\\obj\\",
+      "outputPath": "C:\\git\\MSCore\\MSCoreTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
